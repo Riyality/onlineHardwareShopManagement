@@ -25,6 +25,7 @@ body {
 	border-radius: 5px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 	margin-top:10px;
+	margin-right:200px;
 	height:450px;
 }
 
@@ -179,19 +180,21 @@ form .button input:hover {
 }
 </style>
 <body>
-<a style="color:green">${msgSuccess}</a>
+
 	<div class="container">
 		<div class="title">Add Customer</div>
 		<div class="content">
-			<form action="customer" method="post">
+			<form action="customers" method="post">
 				<div class="user-details">
+				
+								
 					<div class="input-box">
-						<span class="details">Add Customer</span> <input type="text"
-							placeholder="Enter customer name" required>
+						<span class="details">Customer Name</span> <input type="text"
+							  name="name"required>
 				</div>
 					<div class="input-box">
 						<span class="details">MobileNo</span> <input type="text"
-							placeholder="Enter mobile no" required>
+							 name="mobileNo"required>
 					</div>
 
 				</div>
