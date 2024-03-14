@@ -69,12 +69,7 @@
 	rel="stylesheet">
 <!-- Custom CSS -->
 <link href="resources/dist/css/style.min.css" rel="stylesheet">
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
+
 </head>
 
 <body>
@@ -111,11 +106,12 @@
 
 					</b> <!--End Logo icon --> <!-- Logo text --> <span class="logo-text">
 							<!-- dark Logo text --> <img
-							src="resources/assets/images/background/hard.jpg"
-							alt="homepage" class="light-logo" style="height: 60px" />
-							<h6 style="display: inline-block; color: white">Hardware shop<br>management system</h6>
-					</span> 
-				<!-- Logo icon --> <!-- <b class="logo-icon"> --> <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+							src="resources/assets/images/background/hard.jpg" alt="homepage"
+							class="light-logo" style="height: 60px" />
+							<h6 style="display: inline-block; color: white">
+								Hardware shop<br>management system
+							</h6>
+					</span> <!-- Logo icon --> <!-- <b class="logo-icon"> --> <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
 						<!-- Dark Logo icon --> <!-- <img src="resources/assets/images/logo-text.png" alt="homepage" class="light-logo" /> -->
 
 						<!-- </b> --> <!--End Logo icon -->
@@ -210,7 +206,7 @@
 					</ul>
 				</div>
 			</nav>
-		
+
 		</header>
 		<aside class="left-sidebar" data-sidebarbg="skin5"
 			style="background-color: #00cc99;">
@@ -226,8 +222,7 @@
 								class="mdi mdi-view-dashboard" style="color: black"></i> <span
 								class="hide-menu"
 								style="color: black; font-size: 20px; font-weight: 900;">Dashboard</span></a></li>
-						<!--   <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="charts.html" aria-expanded="false"><i class="fas fa-users" style="color:black"></i><span class="hide-menu" style="color: black; font-size: 20px; font-weight: 900;">Items</span></a></li>
- -->
+						
 						<li class="sidebar-item"><a
 							class="sidebar-link has-arrow waves-effect waves-dark"
 							href="javascript:void(0)" aria-expanded="false"
@@ -236,48 +231,48 @@
 								style="color: black; font-size: 20px; font-weight: 900;">Items</span></a>
 							<ul aria-expanded="false" class="collapse  first-level"
 								style="background-color: white;">
-								<li class="sidebar-item"><a href="items-form"
+								<li class="sidebar-item"><a href="items"
 									class="sidebar-link"><i class="mdi mdi-note-outline"
 										style="color: black"></i><span class="hide-menu"
 										style="color: black; font-size: 20px; font-weight: 900;">
-											Add </span></a></li>
-								<li class="sidebar-item"><a href="allmedicine"
+											Add Items </span></a></li>
+								<li class="sidebar-item"><a href="Items"
 									class="sidebar-link"><i class="mdi mdi-note-plus"
 										style="color: black"></i><span class="hide-menu"
 										style="color: black; font-size: 20px; font-weight: 900;">
-											List </span></a></li>
+											All Items</span></a></li>
 							</ul></li>
 
-						
+
 						<li class="sidebar-item"><a
 							class="sidebar-link has-arrow waves-effect waves-dark"
 							href="javascript:void(0)" aria-expanded="false"
-							style="color: black"><i class="fa fa-user" aria-hidden="true" style="color:black"></i><span class="hide-menu"
+							style="color: black"><i class="fa fa-user" aria-hidden="true"
+								style="color: black"></i><span class="hide-menu"
 								style="color: black; font-size: 20px; font-weight: 900;">Customer</span></a>
 							<ul aria-expanded="false" class="collapse  first-level"
 								style="background-color: white;">
-								<li class="sidebar-item"><a href="customer-form"
+								<li class="sidebar-item"><a href="customer1"
 									class="sidebar-link"><i class="mdi mdi-note-outline"
 										style="color: black"></i><span class="hide-menu"
 										style="color: black; font-size: 20px; font-weight: 900;">
 											Add Customer </span></a></li>
-								<li class="sidebar-item"><a href="#"
-									class="sidebar-link"><i class="mdi mdi-note-plus"
-										style="color: black"></i><span class="hide-menu"
+								<li class="sidebar-item"><a href="all" class="sidebar-link"><i
+										class="mdi mdi-note-plus" style="color: black"></i><span
+										class="hide-menu"
 										style="color: black; font-size: 20px; font-weight: 900;">
-											Customer List </span></a></li>
+											All Customer</span></a></li>
 							</ul></li>
 						<li class="sidebar-item"><a
 							class="sidebar-link waves-effect waves-dark sidebar-link"
-							href="#" aria-expanded="false"><i class="fa fa-calculator"style="color:black"></i><span
-								class="hide-menu"
+							href="#" aria-expanded="false"><i class="fa fa-calculator"
+								style="color: black"></i><span class="hide-menu"
 								style="color: black; font-size: 20px; font-weight: 900;">Billing</span></a></li>
-								</ul>
-								
+					</ul>
 
-						
-		</nav> 
-						<!-- End Sidebar navigation -->
+
+
+				</nav>
 			</div>
-			<!-- End Sidebar scroll-->
+
 		</aside>

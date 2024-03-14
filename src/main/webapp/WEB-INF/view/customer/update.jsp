@@ -1,4 +1,6 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@include file="../../jsp/modules/header.jsp"%>
+<%@ page isELIgnored="false"%>
 <style>
 @import
 	url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap')
@@ -19,24 +21,25 @@ body {
 }
 
 .container {
-	max-width: 700px;
+	max-width: 500px;
 	background-color: #fff;
-	padding: 25px 30px;
+	padding: 15px 30px;
 	border-radius: 5px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-	margin-top:10px;
+	margin-top: 10px;
+	height: 450px;
 }
 
 .container .title {
 	font-size: 25px;
 	font-weight: 500;
 	position: relative;
+	padding-top: 90px;
 }
 
 .container .title::before {
 	content: "";
 	position: absolute;
-	
 	left: 0;
 	bottom: 0;
 	height: 3px;
@@ -49,7 +52,6 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	
 	margin: 20px 0 12px 0;
 }
 
@@ -65,7 +67,6 @@ form .input-box span.details {
 }
 
 .user-details .input-box input {
-
 	height: 45px;
 	width: 100%;
 	outline: none;
@@ -177,49 +178,31 @@ form .button input:hover {
 }
 </style>
 <body>
+
 	<div class="container">
-		<div class="title">Add Items</div>
+		<div class="title">Customer</div>
 		<div class="content">
-			<form action="#">
+			<form action="updateCustomer"" >
 				<div class="user-details">
 					<div class="input-box">
-						<span class="details">Item Name</span> <input type="text"
-							placeholder="Enter Item" required>
-					</div>
-					<div class="col-12 col-sm-6">
-						<div>
-							<label>Category</label> <select class="form-control select"
-								id="box">
-								<option>Please Select Section</option>
-								<option>Electrical</option>
-								<option>Buildings</option>
-								<option>Plumbing</option>
-							</select>
-						</div>
-					</div>
-
-					<div class="input-box">
-						<span class="details">Price</span> <input type="text"
-							placeholder="Enter price" required >
+						<span class="details">Customer Id</span> <input type="text"
+							name="id" value="${param.id}" required>
 					</div>
 					<div class="input-box">
-						<span class="details">Stock</span> <input type="text"
-							placeholder="Enter stock" required>
+						<span class="details">Customer Name</span> <input type="text"
+							name="name" value="${param.name}" required>
 					</div>
 					<div class="input-box">
-						<span class="details">Manufacturer</span> <input type="text"
-							placeholder="Enter Manufacturer" required>
+						<span class="details">Mobile No</span> <input type="text"
+							name="mobileNo" value="${param.mobileNo}" required>
 					</div>
-
 				</div>
-
 				<div class="button">
-					<input type="submit" value="Add Item">
+					<input type="submit" value="Update Customer">
 				</div>
 			</form>
 		</div>
 	</div>
-
 </body>
 
 <%@include file="../../jsp/modules/footer.jsp"%>
