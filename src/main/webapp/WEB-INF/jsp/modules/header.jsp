@@ -223,7 +223,7 @@
 								class="hide-menu"
 								style="color: black; font-size: 20px; font-weight: 900;">Dashboard</span></a></li>
 						
-						<li class="sidebar-item"><a
+					<li class="sidebar-item"><a
 							class="sidebar-link has-arrow waves-effect waves-dark"
 							href="javascript:void(0)" aria-expanded="false"
 							style="color: black"><i class="mdi mdi-receipt"
@@ -231,18 +231,17 @@
 								style="color: black; font-size: 20px; font-weight: 900;">Items</span></a>
 							<ul aria-expanded="false" class="collapse  first-level"
 								style="background-color: white;">
-								<li class="sidebar-item"><a href="items"
+								<li class="sidebar-item"><a href="items-form"
 									class="sidebar-link"><i class="mdi mdi-note-outline"
 										style="color: black"></i><span class="hide-menu"
 										style="color: black; font-size: 20px; font-weight: 900;">
 											Add Items </span></a></li>
-								<li class="sidebar-item"><a href="Items"
+								<li class="sidebar-item"><a href="selectall"
 									class="sidebar-link"><i class="mdi mdi-note-plus"
 										style="color: black"></i><span class="hide-menu"
 										style="color: black; font-size: 20px; font-weight: 900;">
-											All Items</span></a></li>
+											All Items </span></a></li>
 							</ul></li>
-
 
 						<li class="sidebar-item"><a
 							class="sidebar-link has-arrow waves-effect waves-dark"
